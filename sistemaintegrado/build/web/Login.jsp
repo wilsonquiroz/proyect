@@ -14,21 +14,46 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Transportes Urimar</title>
-
     </head>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="stilos.css" rel="stylesheet">
-    <body background="" style="background-repeat: no-repeat; background-position: center center;"> 
 
-  
-        
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/style.css" rel="stylesheet">
+    <link rel="stylesheet" href="stilos.css" type="text/css" />
+    <body>
+
         <div class="container-fluid">
             <div class="row">
-                <div class="col-md-12" >
-                    <img id="logo" alt="Trasportes Urimar" src="img/logo.jpg">
+                <div class="col-md-12">
+                    <img id="logo" alt="Trasportes Urimar" src="img/banner4.jpg" width="100%" height="100%">
+                    <div class="row">
+                        <div class="col-md-12">
 
-                    <div class="pull-center">
-                        <a href="Index.jsp"><button type="button" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-home"> Inicio</span></button></a>
+                            <nav class="navbar navbar-inverse">
+                                <div class="container-fluid">
+                                    <div class="navbar-header">
+                                        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-th"> URIMAR</span></a>
+                                    </div>
+                                    <div>
+                                        <ul class="nav navbar-nav">
+                                            <li  class="active"><a href="Index.jsp"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+                                            <li><a href="somos.jsp"><span class="glyphicon glyphicon-briefcase"></span> Quiénes Somos</a></li>
+                                            <li><a href="Instalaciones.jsp"><span class="glyphicon glyphicon-globe"></span> Instalaciones</a></li>
+                                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-info-sign"></span> Nuestros Servicios<span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="granel.jsp">Transporte a Granel</a></li>
+                                                    <li><a href="contenedor.jsp">Transporte Contenedorizada</a></li>
+
+                                                </ul>
+                                            <li><a href="contacto.jsp"><span class="glyphicon glyphicon-envelope"> </span> Contáctenos</a></li>
+
+                                        </ul>
+                                    </div>
+
+                                   </div>
+                                </div>
+                            </nav>	
+
+                        </div>
                     </div>
 
 

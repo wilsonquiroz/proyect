@@ -1,12 +1,11 @@
 nav.navbar ul.nav li {
-    font-family: "Agency FB";
-    font-size: 20px;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 110%;
 }
-
-
+ 
+/* cambiar el color de fondo a la barra */
 nav.navbar {
-    background-color: #CC1414;
-
+    background-color: #181B1F;
 }
 
 

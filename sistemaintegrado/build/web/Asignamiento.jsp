@@ -24,7 +24,7 @@
                 <div class="container-fluid">
                 <div class="row">
                 <div class="col-md-12">
-                <img id="logo" alt="Trasportes Urimar" src="img/logo.jpg">
+                <img id="logo" alt="Trasportes Urimar" src="img/banner4.jpg" width="100%" height="100%">
                 <div class="row">
                 <div class="col-md-12">
                 
@@ -35,16 +35,16 @@
                 </div>
                 <div>
                 <ul class="nav navbar-nav">
-                <li ><a href="sesionasistente.html"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
-                <li><a href="liquidaciones.html"><span class="glyphicon glyphicon-list-alt"></span> Liquidaciones</a></li>
-                <li><a href="CrearRuta.html"><span class="glyphicon glyphicon-road"></span> Crear ruta</a></li>
+                <li ><a href="sesionasistente.jsp"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+                <li><a href="liquidaciones.jsp"><span class="glyphicon glyphicon-list-alt"></span> Liquidaciones</a></li>
+                <li><a href="CrearRuta.jsp"><span class="glyphicon glyphicon-road"></span> Crear ruta</a></li>
                 <li class="active"class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-info-sign"></span>Parque Automotor<span class="caret"></span></a>
                                                 <ul class="dropdown-menu">
-                                                <li><a href="RegistrarConductor.html">Registro Conductores</a></li>
-                                                <li><a href="RegistrarCamion.html">Registro Vehiculos</a></li>
-                                                <li class="active"><a href="Asignamiento.html">Asignamiento</a></li>
+                                                <li><a href="RegistroConductor.jsp">Registro Conductores</a></li>
+                                                <li><a href="RegistrarCamion.jsp">Registro Vehiculos</a></li>
+                                                <li class="active"><a href="Asignamiento.jsp">Asignamiento</a></li>
                                                 </ul>
-                <li ><a href="Viajes.html"><span class="glyphicon glyphicon-send"></span> Viajes</a></li>
+                <li ><a href="Viajes.jsp"><span class="glyphicon glyphicon-send"></span> Viajes</a></li>
                 
                 
                 </ul>
@@ -52,12 +52,10 @@
                 
                 <div>
                 <form action="" class="navbar-form navbar-right">
-                <div class="form-group">
-                <input type="text" class="form-control" placeholder="Buscar...">
-                </div>
+                
                 
                 <button class="btn btn-default" top="5" href="login.html"><span class="glyphicon glyphicon-search"></span></button>
-                 <a href="index.html"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-off"> CerrarSesion</span></button></a>
+                 <a href="Index.jsp"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-off"> CerrarSesion</span></button></a>
                 </form>
                 
                 

@@ -61,7 +61,7 @@ public class ConsultaPedidos extends HttpServlet {
                 pedidos.add(p);
             }
            hts.setAttribute("pedidos", pedidos);
-            response.sendRedirect("VerPedidosCliente.jsp");
+           response.sendRedirect("VerPedidosCliente.jsp");
             con.CerrarConexion();
         }catch(SQLException e){
             System.out.println(e);

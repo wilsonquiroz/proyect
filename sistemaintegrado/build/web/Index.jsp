@@ -23,7 +23,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <img id="logo" alt="Trasportes Urimar" src="img/logo.jpg">
+                    <img id="logo" alt="Trasportes Urimar" src="img/banner4.jpg" width="100%" height="100%">
                     <div class="row">
                         <div class="col-md-12">
 
@@ -34,7 +34,7 @@
                                     </div>
                                     <div>
                                         <ul class="nav navbar-nav">
-                                            <li  class="active"><a href="index.jsp"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+                                            <li  class="active"><a href="Index.jsp"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
                                             <li><a href="somos.jsp"><span class="glyphicon glyphicon-briefcase"></span> Quiénes Somos</a></li>
                                             <li><a href="Instalaciones.jsp"><span class="glyphicon glyphicon-globe"></span> Instalaciones</a></li>
                                             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-info-sign"></span> Nuestros Servicios<span class="caret"></span></a>
@@ -50,12 +50,11 @@
 
                                     <div>
                                         <form action="" class="navbar-form navbar-right">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Buscar...">
-                                            </div>
+                                            
 
 
-                                            <a href="Login.jsp"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-user"> Login</span></button></a>
+                                            <a href="Login.jsp"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-user"> Ingresar</span></button></a>
+                                            <a href="TipoRegistro.jsp"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-open-file"> Registro</span></button></a>
                                         </form>
 
 
@@ -66,16 +65,25 @@
                         </div>
                     </div>
 
-
-                    <div id="banner">
-                        <script type="text/javascript">
-                        var bannersnack_embed = {"hash":"bcjax26qk","width":950,"height":250,"t":1442201640,"userId":20756266,"wmode":"transparent"};
-                        </script>
-                        <script type="text/javascript" src="http://files.bannersnack.com/iframe/embed.js"></script></div>
-
-
-
-
+                  
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-md-1">
+                            </div>
+                            <div class="col-md-10">
+                                <script type="text/javascript">
+                                       var bannersnack_embed = {"hash":"bcjax26qk","width":950,"height":250,"t":1442201640,"userId":20756266,"wmode":"transparent"};
+                                </script>
+                                <script type="text/javascript" src="http://files.bannersnack.com/iframe/embed.js"></script></div>	 
+                            
+                        </div>
+                        <div class="col-md-1">
+                        </div>
+                    </div>
+                </div>
+                    
+                     <br>
+                     <br>
                     <div id="tumble" class="container-fluid">
                         <div class="row">
                             <div class="col-md-12">

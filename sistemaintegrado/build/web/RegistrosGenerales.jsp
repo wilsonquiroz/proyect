@@ -13,28 +13,73 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Transportes Urimar</title>
+
+
+
     </head>
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="stilos.css" rel="stylesheet">
-    <body background="" style="background-repeat: no-repeat; background-position: center center;"> 
+    
+    
+          <% HttpSession sesion = request.getSession();
+    
+     String usu= sesion.getAttribute("nombre").toString();
+             
+          
+             %>
+        
+            
+    <body>
 
+         <h1> </h1>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <img id="logo" alt="Trasportes Urimar" src="img/logo.jpg">
+                    <img id="logo" alt="Trasportes Urimar" src="img/banner4.jpg" width="100%" height="100%">
+                    <div class="row">
+                        <div class="col-md-12">
 
-                    <div class="pull-center">
-                        <a href="Index.jsp"><button type="button" class="btn btn-danger btn-lg"><span class="glyphicon glyphicon-home"> Inicio</span></button></a>
-                    </div>
-                    <div class="container-fluid">
-                        <div class="row">
-                            <div class="col-md-12">
+                            <nav class="navbar navbar-inverse">
+                                <div class="container-fluid">
+                                    <div class="navbar-header">
+                                        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-user"> <%= usu %></span></a>
+                                    </div>
+                                    <div>
+                                        <ul class="nav navbar-nav">
+                                            <li><a href="SesionJefeFac.html"><span class="glyphicon glyphicon-cog"></span>Configuraciones</a></li>
+                                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-info-sign"></span> Mod Facturacion<span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="CrearFactura.html">Facturacion</a></li>
+                                                    <li><a href="ListadoFacturas.html">Listado de Facturas</a></li>
+                                                </ul>
+                                            <li><a href="EstadoCartera.html"><span class="glyphicon glyphicon-briefcase"></span>Mod Cartera</a></li>
+                                            <li><a href="PedidosPendientes.html"><span class="glyphicon glyphicon-globe"></span>Mod Pedidos </a></li>
+                                            <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-info-sign"></span>Usuarios<span class="caret"></span></a>
+                                                <ul class="dropdown-menu">
+                                                    <li><a href="RegistrosGenerales.jsp">Registros</a></li>
+                                                    <li><a href="#">Empresas</a></li>
+                                                    <li><a href="#">Personas</a></li>
+
+
+                                                    </div>
+
+                                                    <div>
+                                                        <form action="" class="navbar-form navbar-right">
+                                                             <a href="Index.jsp">
+                                                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-off"> CerrarSesion</span>
+                                                                </button>
+                                                             </a>
+
+                                                        </form>
 
 
 
-                                <center>
+                                                    </div>
+                                                    </div>
+                                                    </nav>	
 
-                                    <br> </br>
+                                                    </div>
+                                                    </div>
 
                                     <table border='0px' width='200%' height='200px' align='center'>
                                         <div  style='width:700px ;margin:0 auto; margin-top:1em; margin-bottom:.1em'>

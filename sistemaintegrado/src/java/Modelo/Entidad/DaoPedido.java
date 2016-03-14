@@ -80,7 +80,7 @@ public class DaoPedido extends ClassConex implements  interfaceCRUD{
     public boolean borrarRegistro() {// opcion 2.
         try {
             
-            st.executeUpdate("delete from cliente where id_cliente='"+usuario+"';");
+            st.executeUpdate("delete from pedidos where idpedido='"+idpedido+"';");
             listo=true;
             conn.close();
         } catch (SQLException ex) {

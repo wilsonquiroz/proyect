@@ -25,26 +25,26 @@
 <div class="container-fluid">
 <div class="row">
 <div class="col-md-12">
-<img id="logo" alt="Trasportes Urimar" src="img/logo.jpg">
+<img id="logo" alt="Trasportes Urimar" src="img/banner4.jpg" width="100%" height="100%">
 <div class="row">
 <div class="col-md-12">
 
 <nav class="navbar navbar-inverse">
 <div class="container-fluid">
 <div class="navbar-header">
-<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-user"> Sandra V</span></a>
+<a class="navbar-brand" href="#"><span class="glyphicon glyphicon-user"></span></a>
 </div>
 <div>
 <ul class="nav navbar-nav">
-<li><a href="SesionJefeFac.html"><span class="glyphicon glyphicon-home"></span>Inicio</a></li>
+<li><a href="SesionJefeFac.jsp"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
 <li class="active" class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-info-sign"></span> Facturacion<span class="caret"></span></a>
 <ul class="dropdown-menu">
-<li class="active"><a href="CrearFactura.html">Crear Factura</a></li>
-<li><a href="ListadoFacturas.html">Listado de Facturas</a></li>
+<li class="active"><a href="CrearFactura.jsp">Crear Factura</a></li>
+<li><a href="ListadoFacturas.jsp">Listado de Facturas</a></li>
 </ul>
-<li><a href="EstadoCartera.html"><span class="glyphicon glyphicon-briefcase"></span> Cartera</a></li>
-<li><a href="PedidosPendientes.html"><span class="glyphicon glyphicon-globe"></span> Pedidos </a></li>
-<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-info-sign"></span>CLientes<span class="caret"></span></a>
+<li><a href="EstadoCartera.jsp"><span class="glyphicon glyphicon-briefcase"></span> Cartera</a></li>
+<li><a href="PedidosPendientes.jsp"><span class="glyphicon glyphicon-globe"></span> Pedidos </a></li>
+<li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-info-sign"></span>Clientes<span class="caret"></span></a>
 <ul class="dropdown-menu">
 <li><a href="#">Empresas</a></li>
 <li><a href="#">Personas</a></li>
@@ -54,9 +54,7 @@
 
 <div>
 <form action="" class="navbar-form navbar-right">
-<div class="form-group">
-<input type="text" class="form-control" placeholder="Buscar...">
-</div>
+
 
 <button class="btn btn-default" top="5" href="login.html"><span class="glyphicon glyphicon-search"></span></button>
 <a href="index.html"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-off"> CerrarSesion</span>

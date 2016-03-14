@@ -30,12 +30,12 @@
         
             
     <body>
-
+        <%if (usu != null){%>
          <h1> </h1>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <img id="logo" alt="Trasportes Urimar" src="img/logo.jpg">
+                    <img id="logo" alt="Trasportes Urimar" src="img/banner4.jpg" width="100%" height="100%">
                     <div class="row">
                         <div class="col-md-12">
 
@@ -46,14 +46,14 @@
                                     </div>
                                     <div>
                                         <ul class="nav navbar-nav">
-                                            <li><a href="SesionJefeFac.html"><span class="glyphicon glyphicon-home"></span>Inicio</a></li>
+                                            <li><a href="SesionJefeFac.jsp"><span class="glyphicon glyphicon-home"></span>Inicio</a></li>
                                             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-info-sign"></span> Facturacion<span class="caret"></span></a>
                                                 <ul class="dropdown-menu">
-                                                    <li><a href="CrearFactura.html">Crear Factura</a></li>
-                                                    <li><a href="ListadoFacturas.html">Listado de Facturas</a></li>
+                                                    <li><a href="CrearFactura.jsp">Crear Factura</a></li>
+                                                    <li><a href="ListadoFacturas.jsp">Listado de Facturas</a></li>
                                                 </ul>
-                                            <li><a href="EstadoCartera.html"><span class="glyphicon glyphicon-briefcase"></span> Cartera</a></li>
-                                            <li><a href="PedidosPendientes.html"><span class="glyphicon glyphicon-globe"></span> Pedidos </a></li>
+                                            <li><a href="EstadoCartera.jsp"><span class="glyphicon glyphicon-briefcase"></span> Cartera</a></li>
+                                            <li><a href="ConsultaPedidos.jsp"><span class="glyphicon glyphicon-globe"></span> Pedidos </a></li>
                                             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-info-sign"></span>CLientes<span class="caret"></span></a>
                                                 <ul class="dropdown-menu">
                                                     <li><a href="#">Empresas</a></li>
@@ -129,5 +129,7 @@
                                                     <script src="js/jquery.min.js"></script>
                                                     <script src="js/bootstrap.min.js"></script>
                                                     <script src="js/scripts.js"></script>
+                                                    <%}else response.sendRedirect("Login.jsp");%>    
+                                                    
                                                     </body>
                                                     </html>

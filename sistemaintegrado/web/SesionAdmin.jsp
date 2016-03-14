@@ -29,7 +29,7 @@
         <div class="container-fluid">
             <div class="row">
                 <div class="col-md-12">
-                    <img id="logo" alt="Trasportes Urimar" src="img/logo.jpg">
+                    <img id="logo" alt="Trasportes Urimar" src="img/banner4.jpg" width="100%" height="100%">
                     <div class="row">
                         <div class="col-md-12">
 
@@ -47,7 +47,7 @@
                                                     <li><a href="ListadoFacturas.html">Listado de Facturas</a></li>
                                                 </ul>
                                             <li><a href="EstadoCartera.html"><span class="glyphicon glyphicon-briefcase"></span>Mod Cartera</a></li>
-                                            <li><a href="PedidosPendientes.html"><span class="glyphicon glyphicon-globe"></span>Mod Pedidos </a></li>
+                                            <li><a href="ConsultaPedidos.jsp"><span class="glyphicon glyphicon-globe"></span>Mod Pedidos </a></li>
                                             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-info-sign"></span>Usuarios<span class="caret"></span></a>
                                                 <ul class="dropdown-menu">
                                                     <li><a href="RegistrosGenerales.jsp">Registros</a></li>
@@ -59,13 +59,10 @@
 
                                                     <div>
                                                         <form action="" class="navbar-form navbar-right">
-                                                            <div class="form-group">
-                                                                <input type="text" class="form-control" placeholder="Buscar...">
-                                                            </div>
-
-                                                            <button class="btn btn-default" top="5" href="login.html"><span class="glyphicon glyphicon-search"></span></button>
-                                                            <a href="Index.jsp"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-off"> CerrarSesion</span>
-                                                                </button></a>
+                                                             <a href="Index.jsp">
+                                                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-off"> CerrarSesion</span>
+                                                                </button>
+                                                             </a>
 
                                                         </form>
 

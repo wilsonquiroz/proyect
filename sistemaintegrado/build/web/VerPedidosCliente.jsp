@@ -4,9 +4,13 @@
     Author     : SHADY-
 --%>
 
+<%@page import="java.sql.ResultSet"%>
+<%@page import="java.sql.Statement"%>
+<%@page import="java.sql.Connection"%>
+<%@page import="Controlador.ClassConex"%>
 <%@page import="java.util.ArrayList"%>
 <%@page import="Controlador.Pedidos"%>
-<%ArrayList<Pedidos> em = (ArrayList<Pedidos>) session.getAttribute("pedidos");%>
+
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
@@ -18,13 +22,11 @@
 
         <title>Transportes Urimar</title>
 
- <%--<% HttpSession sesion = request.getSession();
+   <% HttpSession sesion = request.getSession();
     
          String usu= sesion.getAttribute("nombre").toString();
-             
-          
-             %>
- --%>
+    %>
+   
 
     </head>
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -41,7 +43,7 @@
                             <nav class="navbar navbar-inverse">
                                 <div class="container-fluid">
                                     <div class="navbar-header">
-                                        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-th"> CLIENTE</span></a>
+                                        <a class="navbar-brand" href="#"><span class="glyphicon glyphicon-th"> <%=usu%></span></a>
                                     </div>
                                     <div>
                                         <ul class="nav navbar-nav">
@@ -63,9 +65,7 @@
 
                                     <div>
                                         <form action="" class="navbar-form navbar-right">
-                                            <div class="form-group">
-                                                <input type="text" class="form-control" placeholder="Buscar...">
-                                            </div>
+                                           
 
                                             <button class="btn btn-default" top="5" href="login.html"><span class="glyphicon glyphicon-search"></span></button>
                                             <a href="Index.jsp"><button type="button" class="btn btn-default"><span class="glyphicon glyphicon-off"> CerrarSesion</span>
@@ -86,7 +86,7 @@
 
                         <h2>Pedidos</h2>
 
-                        <p><font color="red" size="5"  face="arial" align="justify" >Aquí puede ver el estado de su pedido: </font></p> 
+                        <p><font color="red" size="5"  face="arial" align="justify" >Buscar pedido: </font></p> 
 
                         <input type="text" class="form-inline"  align="right" placeholder="Buscar pedido">
 
@@ -96,10 +96,10 @@
                       
 
                         
-                          <h1 class="h1 text-center text-info">TABLA PEDIDOS</h1>
+                          <h1 class="h1 text-center text-info"> PEDIDOS </h1>
             <br>
             <br>
-            <table class=" table table-responsive">
+            <table class="table table-hover table-condensed table-bordered">
                 <thead>
                 <th>NUMERO PEDIDO</th>
                 <th>ORIGEN</th>
@@ -112,17 +112,31 @@
                 <th class="text-center">OPCIONES</th>
                 </thead>
                 <tbody>
-                    <%for (Pedidos p : em) {%>
+                    
+              <%  ClassConex con = new ClassConex();
+                Connection cn = con.ObtenerConexion(); 
+                
+                Statement stm = cn.createStatement();
+                String query = "select * from pedidos where usuario= '"+usu+"';";
+                 ResultSet rs = stm.executeQuery(query);         
+              %>      
+                 </thead>
+                <tbody>
+                    <%while (rs.next()) {%>
                     <tr>
-                        <td> <%= p.getIdpedido()%> </td>
-                        <td> <%= p.getOrigen()%> </td>
-                        <td> <%= p.getDestino()%> </td>
-                        <td> <%= p.getProducto()%> </td>
-                        <td> <%= p.getCantidad()%> </td>
-                        <td> <%= p.getFechapedido()%> </td>
-                        <td> <%= p.getFechaentrega()%> </td>
-                        <td> <%= p.getUsuario()%> </td>
-                        <td>
+                        <td> <%= rs.getString("idpedido")%> </td>
+                        <td> <%= rs.getString("origen")%> </td>
+                        <td> <%= rs.getString("destino")%> </td>
+                        <td> <%= rs.getString("producto")%> </td>
+                        <td> <%= rs.getString("cantidad")%> </td>
+                        <td> <%= rs.getString("fechapedido")%> </td>
+                        <td> <%= rs.getString("fechaentrega")%> </td>
+                        <td> <%= rs.getString("usuario")%> </td>
+                        <td>   
+                    
+                    
+                    
+                    
                             <form action="CRUD" method="POST">
                                 <div class="text-center">
                                     <input class="btn btn-primary" type="submit" value="EDITAR" name="edit">
@@ -130,8 +144,9 @@
                                 </div>
                             </form>
                         </td>
+                        
                     </tr>   
-                    <%}%>
+                   <% }%>
                         
                </tbody>
             </table>

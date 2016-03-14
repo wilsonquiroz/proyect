@@ -34,7 +34,7 @@
     <div class="container-fluid">
     <div class="row">
     <div class="col-md-12">
-    <img id="logo" alt="Trasportes Urimar" src="img/logo.jpg">
+    <img id="logo" alt="Trasportes Urimar" src="img/banner4.jpg" width="100%" height="100%">
     <div class="row">
     <div class="col-md-12">
 
@@ -46,7 +46,7 @@
     <div>
     <ul class="nav navbar-nav">
     <li class="active"><a href="SesionAsistente.jsp"><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
-    <li><a href="VerPedidosCliente.jsp"><span class="glyphicon glyphicon-list-alt"></span> Pedidos </a></li>
+    <li><a href="ConsultaPedidos.jsp"><span class="glyphicon glyphicon-list-alt"></span> Pedidos </a></li>
     <li><a href="#"><span class="glyphicon glyphicon-road"></span> Crear ruta</a></li>
     <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-info-sign"></span>Parque Automotor<span class="caret"></span></a>
                                     <ul class="dropdown-menu">
