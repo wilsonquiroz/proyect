@@ -22,6 +22,7 @@ public class DaoPedido extends ClassConex implements  interfaceCRUD{
     public boolean encontrado=false;
     public boolean listo = false;
     
+    
     public String idpedido="";
     public String origen="";
     public String destino="";

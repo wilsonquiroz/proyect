@@ -15,12 +15,10 @@
     <link href="stilos.css" rel="stylesheet">
     
     
-          <% HttpSession sesion = request.getSession();
+      <% HttpSession sesion = request.getSession();
     
      String usu= sesion.getAttribute("nombre").toString();
-             
-          
-             %>
+      %>
         
             
     <body>
@@ -51,9 +49,9 @@
                                             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-info-sign"></span>Usuarios<span class="caret"></span></a>
                                                 <ul class="dropdown-menu">
                                                     <li><a href="RegistrosGenerales.jsp">Registros</a></li>
-                                                    <li><a href="#">Empresas</a></li>
-                                                    <li><a href="#">Personas</a></li>
-
+                                                    <li><a href="ListaSolicitudes.jsp">Solicitudes</a></li>
+                                                    <li><a href="">Lista usuarios</a></li>
+                                                       
 
                                                     </div>
 

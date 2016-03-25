@@ -1,17 +1,23 @@
 <%-- 
-    Document   : RegistroPersonas
-    Created on : 14-feb-2016, 18:11:45
+    Document   : RegistroEmpresa
+    Created on : 14-feb-2016, 18:12:44
     Author     : SHADY-
 --%>
 
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
-<!DOCTYPE html>
-     <head>
+  <!DOCTYPE html>
+            <html lang="es">
+    <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>Transportes Urimar</title>
+        
+        
+         
+        
+        
     </head>
 
     <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -49,9 +55,11 @@
 
                                     <div>
                                         <form action="" class="navbar-form navbar-right">
+                                           
                                             <a href="Login.jsp">
-                                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-user"> Login</span></button>
+                                                <button type="button" class="btn btn-default"><span class="glyphicon glyphicon-user">Ingresar</span></button>
                                             </a>
+                                            
                                         </form>
 
 
@@ -61,180 +69,130 @@
 
                         </div>
                     </div>
-                    <br>
-                    <br>
-                <table border='0px' width='200%' height='200px' align='center'>
-                <div  style='width:700px ;margin:0 auto; margin-top:1em; margin-bottom:.1em'>
-                
-                
-                <img class="imgcenter" src="img/regis.png">
-                <font color="black" size="5"  face="arial" align="justify" >
-                <center>
-                <p> Registre aquí sus datos: </p>
-                </center>
-                
-                
-                </font>
-                
-                <form class="form-horizontal">
-                <div class="form-group">
-                <label class="control-label col-xs-3">Email:</label>
-                <div class="col-xs-9">
-                <input type="email" class="form-control" id="inputEmail" placeholder="Email">
-                </div>
-                
-                </div>
-                
-                <br></br>
-                
-                <div class="form-group">
-                <label class="control-label col-xs-3">Documento de identidad:</label>
-                <div class="col-xs-9">
-                <input type="password" class="form-control" id="inputPassword" placeholder="Ingresar identificación">
-                </div>
-                </div>
-                
-                <br></br>
-                
-                <div class="form-group">
-                <label class="control-label col-xs-3">Password:</label>
-                <div class="col-xs-9">
-                <input type="password" class="form-control" id="inputPassword" placeholder="Password">
-                </div>
-                </div>
-                
-                <br></br>
-                
-                <div class="form-group">
-                <label class="control-label col-xs-3">Confirmar Password:</label>
-                <div class="col-xs-9">
-                <input type="password" class="form-control" placeholder="Confirmar Password">
-                </div>
-                </div>
-                <br></br>
-                <div class="form-group">
-                <label class="control-label col-xs-3">Nombre:</label>
-                <div class="col-xs-9">
-                <input type="text" class="form-control" placeholder="Nombre">
-                </div>
-                </div>
-                <br></br>
-                <div class="form-group">
-                <label class="control-label col-xs-3">Apellido:</label>
-                <div class="col-xs-9">
-                <input type="text" class="form-control" placeholder="Apellido">
-                </div>
-                </div>
-                <br></br>
-                <div class="form-group">
-                <label class="control-label col-xs-3" >Telefono:</label>
-                <div class="col-xs-9">
-                <input type="tel" class="form-control" placeholder="Telefono">
-                </div>
-                </div>
-                <br></br>
-                <div class="form-group">
-                <label class="control-label col-xs-3">F. Nacimiento:</label>
-                <div class="col-xs-3">
-                <select class="form-control">
-                <option>Dia</option>
-                </select>
-                </div>
-                
-                <div class="col-xs-3">
-                <select class="form-control">
-                <option>Mes</option>
-                </select>
-                </div>
-                
-                <div class="col-xs-3">
-                <select class="form-control">
-                <option>Año</option>
-                </select>
-                </div>
-                </div>
-                <br></br>
-                <div class="form-group">
-                <label class="control-label col-xs-3">Dirección:</label>
-                <div class="col-xs-9">
-                <textarea rows="3" class="form-control" placeholder="Dirección"></textarea>
-                </div>
-                </div>
-                <br></br>
-                <div class="form-group">
-                <label class="control-label col-xs-3">Genero:</label>
-                <div class="col-xs-2">
-                <label class="radio-inline">
-                <input type="radio" name="genderRadios" value="male"> Maculino
-                </label>
-                </div>
-                
-                <div class="col-xs-2">
-                <label class="radio-inline">
-                <input type="radio" name="genderRadios" value="female"> Femenino
-                </label>
-                </div>
-                </div>
-                
-                <div class="form-group">
-                <div class="col-xs-offset-3 col-xs-9">
-                
-                </div>
-                </div> 
-                <div class="form-group">
-                
-                <label class="control-label col-xs-3">Comentarios:</label>
-                <div class="col-xs-9">
-                <textarea rows="3" class="form-control" placeholder="Comentario"></textarea>
-                </div>
-                </div>
-                <br></br>
-                <div class="form-group">
-                <div class="col-xs-offset-3 col-xs-9">
-                <label class="checkbox-inline">
-                <input type="checkbox" value="agree">  Accepto <a href="#">Terminos y condiciones</a>.
-                </label>
-                </div>
-                </div>
-                <br>
-                
-                
-                
-                </br>
-                <div class="form-group">
-                
-                
-                
-                <div class="col-xs-offset-3 col-xs-9">
-                <input type="submit" class="btn btn-primary" value="Enviar">
-                <input type="reset" class="btn btn-default" value="Limpiar">
-                
-                
-                
-                </div>
-                
-                
-                </div>
-                
-                
-                
-                
-                </form>
-                
-                
-                </table>
-                </div>
-                
-                </div>
-                </div>
-                </div>
-                
-                </div>
-                </div>
-                </div>
-                
-                <script src="js/jquery.min.js"></script>
-                <script src="js/bootstrap.min.js"></script>
-                <script src="js/scripts.js"></script>
-                </body>
-                </html>
+            
+            <table border='0px' width='100%' height='100px' align='center'>
+            <div  style='width:750px ;margin:0 auto; margin-top:1em; margin-bottom:.1em'>
+            
+            
+            <img class="imgcenter" src="img/regis.png">
+            <font color="black" size="5"  face="arial" align="justify" >
+            <center>
+            <p> REGISTRO PRESONA NATURAL </p>
+            </center>
+            </font>
+            <br></br>
+            <div class="alert alert-info fade in">
+                                            <a href="#" class="close" data-dismiss="alert" aria-label="close">&times;</a>
+                                             <h5>
+                                            <% if (request.getAttribute("mensaje")!=null){%>
+
+                                            ${mensaje}
+
+                                            <%}%>
+                                            </h5>
+                                            
+                                            </div>
+            
+            <form class="form-horizontal" method="post" action="RegistroEmpresa">
+            <div class="form-group">
+            
+            <label class="control-label col-xs-3">Nombre : *</label>
+            <div class="col-xs-9">
+                <input type="textl" class="form-control"  name="razon">
+            </div>
+            </div>
+            
+            
+            <div class="form-group">
+            <br></br>
+            <label class="control-label col-xs-3">Numero de Identificacion*</label>
+            <div class="col-xs-9">
+            <input type="text" class="form-control" id="inputEmail" name="nit">
+            </div>
+            </div>
+            
+            
+            
+            <br></br>
+            
+            <div class="form-group">
+            <label class="control-label col-xs-3">Dirección: *</label>
+            <div class="col-xs-9">
+            <input type="text" class="form-control" name="direccion">
+            </div>
+            </div>
+            <br></br>
+            <div class="form-group">
+            <label class="control-label col-xs-3" >Telefono: *</label>
+            <div class="col-xs-9">
+            <input type="text" class="form-control" name="telefono">
+            </div>
+            </div>
+            <br></br>
+            
+            <div class="form-group">
+            <label class="control-label col-xs-3" >Email: *</label>
+            <div class="col-xs-9">
+            <input type="email" class="form-control" id="inputEmail" name="email">
+            </div>
+            </div>
+            <br></br>
+            
+            
+            <div class="form-group">
+            <label class="control-label col-xs-3" >Nombre de contacto: </label>
+            <div class="col-xs-9">
+            <input type="text" class="form-control" name="contacto">
+            </div>
+            </div>
+            <br></br>
+            <div class="form-group">
+            <label class="control-label col-xs-3" >Password: *</label>
+            <div class="col-xs-9">
+            <input type="password" class="form-control" name="pass">
+            </div>
+            </div>
+            <br></br>
+            
+            </div>
+            </div>
+            <br></br>
+           
+            <br>
+            
+            <div class="form-group">
+            <div class="col-xs-offset-3 col-xs-9">
+            <input type="submit" class="btn btn-primary" value="Enviar ">
+         
+            </div>
+            
+            
+            </div>
+            
+            
+            
+            
+            </form>
+            
+            
+            
+            
+            
+            
+            
+            
+            </table>
+            
+            </div>
+            </div>
+            </div>
+            
+            </div>
+            </div>
+            </div>
+            
+            <script src="js/jquery.min.js"></script>
+            <script src="js/bootstrap.min.js"></script>
+            <script src="js/scripts.js"></script>
+            </body>
+            </html>
