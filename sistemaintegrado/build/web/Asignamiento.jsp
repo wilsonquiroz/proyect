@@ -74,15 +74,7 @@
                       
                       
                       
-                      <form action="" class="navbar-form navbar-right">
-                      <div class="form-group">
-                      <input type="text" class="form-control" placeholder="Buscar...">
-                      </div>
-                      
-                      <button class="btn btn-default" top="5"><span class="glyphicon glyphicon-search"></span></button>
-                      
-                      
-                      </form>
+                    
                       
                       
                       
@@ -98,8 +90,8 @@
                       
                       <form class="form-inline" role="form">
                       <div class="form-group">
-                      <label for="email">Placa:</label>
-                      <input type="email" class="form-control" id="email" placeholder="">
+                      <label for="text">Placa:</label>
+                      <input type="text" class="form-control" id="email" placeholder="">
                       
                       </div>
                       
@@ -111,18 +103,18 @@
                       
                       <div class="row">
                       <div class="col-md-4">
-                      <label for="pwd">Matricula:</label>
-                      <input type="password" class="form-control" id="pwd" placeholder="">
+                      <label for="text">Matricula:</label>
+                      <input type="text" class="form-control" id="pwd" placeholder="">
                       </div>
                       <div class="col-md-4">
-                      <label for="pwd">Modelo:</label>
-                      <input type="password" class="form-control" id="pwd" placeholder="">
+                      <label for="text">Modelo:</label>
+                      <input type="text" class="form-control" id="pwd" placeholder="">
                       </div>
                       
                       <div class="col-md-2">
                       
-                      <label for="pwd">Color:</label>
-                      <input type="password" class="form-control" id="pwd" placeholder="">
+                      <label for="text">Color:</label>
+                      <input type="text" class="form-control" id="pwd" placeholder="">
                       
                       </div>
                       </div>
@@ -132,12 +124,12 @@
                       
                       <div class="row">
                       <div class="col-md-4">
-                      <label for="pwd">Soat:</label>
-                      <input type="password" class="form-control" id="pwd" placeholder="">
+                      <label for="text">Soat:</label>
+                      <input type="text" class="form-control" id="pwd" placeholder="">
                       </div>
                       <div class="col-md-4">
-                      <label for="pwd">Vencimiento:</label>
-                      <input type="password" class="form-control" id="pwd" placeholder="">
+                      <label for="text">Vencimiento:</label>
+                      <input type="text" class="form-control" id="pwd" >
                       </div>
                       <div class="col-md-4">
                       
@@ -152,12 +144,12 @@
                       
                       <div class="row">
                       <div class="col-md-4">
-                      <label for="pwd">Tecnomecanica:</label>
-                      <input type="password" class="form-control" id="pwd" placeholder="">
+                      <label for="text">Tecnomecanica:</label>
+                      <input type="text" class="form-control" id="pwd" placeholder="">
                       </div>
                       <div class="col-md-4">
-                      <label for="pwd">Vencimiento:</label>
-                      <input type="password" class="form-control" id="pwd" placeholder="E">
+                      <label for="text">Vencimiento:</label>
+                      <input type="text" class="form-control" id="pwd">
                       </div>
                       
                       <div class="col-md-4">
@@ -167,18 +159,7 @@
                       
                       <br> </br>
                       
-                      <div class="row">
-                      <div class="col-md-4">
-                      <label for="pwd">N° Trailer:</label>
-                      <input type="password" class="form-control" id="pwd" placeholder="">
-                      </div>
-                      <div class="col-md-4">
-                      <label for="pwd">Tipo de Carroceía:</label>
-                      <input type="password" class="form-control" id="pwd" placeholder="">
-                      </div>
-                      
-                      
-                      </div>
+                   
                       </div>
                       
                       
@@ -192,8 +173,8 @@
                       
                       <form class="form-inline" role="form">
                       <div class="form-group">
-                      <label for="email">Cédula:</label>
-                      <input type="email" class="form-control" id="email" placeholder="">
+                      <label for="text">Cédula:</label>
+                      <input type="text" class="form-control" id="email" placeholder="">
                       </div>
                       
                       <button class="btn btn-default" top="5"><span class="glyphicon glyphicon-search"></span></button>
@@ -204,8 +185,8 @@
                       
                       <div class="row">
                       <div class="col-md-4">
-                      <label for="pwd">Nombre:</label>
-                      <input type="password" class="form-control" id="pwd" placeholder="">
+                      <label for="text">Nombre:</label>
+                      <input type="text" class="form-control" id="pwd" placeholder="">
                       </div>
                       
                       
@@ -216,12 +197,12 @@
                       
                       <div class="row">
                       <div class="col-md-4">
-                      <label for="pwd">Licencia:</label>
-                      <input type="password" class="form-control" id="pwd" placeholder="">
+                      <label for="text">Licencia:</label>
+                      <input type="text" class="form-control" id="pwd" placeholder="">
                       </div>
                       <div class="col-md-4">
-                      <label for="pwd">Vencimiento:</label>
-                      <input type="password" class="form-control" id="pwd" placeholder="">
+                      <label for="text">Vencimiento:</label>
+                      <input type="text" class="form-control" id="pwd" placeholder="">
                       </div>
                       <div class="col-md-4">
                       
@@ -236,12 +217,12 @@
                       
                       <div class="row">
                       <div class="col-md-4">
-                      <label for="pwd">Dirección:</label>
-                      <input type="password" class="form-control" id="pwd" placeholder="">
+                      <label for="text">Dirección:</label>
+                      <input type="text" class="form-control" id="pwd" placeholder="">
                       </div>
                       <div class="col-md-4">
-                      <label for="pwd">Teléfono:</label>
-                      <input type="password" class="form-control" id="pwd" placeholder="">
+                      <label for="text">Teléfono:</label>
+                      <input type="text" class="form-control" id="pwd" placeholder="">
                       </div>
                       
                       <div class="col-md-4">

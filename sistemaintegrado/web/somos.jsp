@@ -35,16 +35,16 @@
                                     </div>
                                     <div>
                                         <ul class="nav navbar-nav">
-                                            <li ><a href="index.html" ><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
+                                            <li ><a href="Index.jsp" ><span class="glyphicon glyphicon-home"></span> Inicio</a></li>
                                             <li class="active"><a href="#"><span class="glyphicon glyphicon-briefcase"></span> Quiénes Somos</a></li>
-                                            <li><a href="Instalaciones.html"><span class="glyphicon glyphicon-globe"></span> Instalaciones</a></li>
+                                            <li><a href="Instalaciones.jsp"><span class="glyphicon glyphicon-globe"></span> Instalaciones</a></li>
                                             <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown" href="#"><span class="glyphicon glyphicon-info-sign"></span> Nuestros Servicios<span class="caret"></span></a>
                                                 <ul class="dropdown-menu">
-                                                    <li><a href="granel.html">Trasnporte a Granel</a></li>
-                                                    <li><a href="contenedor.html">Transporte Contenedorizada</a></li>
+                                                    <li><a href="Granel.jsp">Trasnporte a Granel</a></li>
+                                                    <li><a href="Contenedor.jsp">Transporte Contenedorizada</a></li>
 
                                                 </ul>
-                                            <li><a href="contacto.html"><span class="glyphicon glyphicon-envelope"></span> Contáctenos</a></li>
+                                            <li><a href="Contacto.jsp"><span class="glyphicon glyphicon-envelope"></span> Contáctenos</a></li>
 
                                         </ul>
                                     </div>
