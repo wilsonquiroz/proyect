@@ -41,7 +41,7 @@
                                                 <ul class="dropdown-menu">
                                                     <li class="active"><a href="RegistrarConductor.html">Registro Conductores</a></li>
                                                     <li><a href="RegistrarCamion.html">Registro Vehiculos</a></li>
-                                                    <li><a href="Asignamiento.html">Asignamiento</a></li>
+                                                    <li><a href="VerAsignamiento.jsp">Asignamiento</a></li>
                                                 </ul>
                                             <li ><a href="Viajes.html"><span class="glyphicon glyphicon-send"></span> Viajes</a></li>
 

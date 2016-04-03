@@ -52,7 +52,7 @@
                                                 <ul class="dropdown-menu">
                                                     <li><a href="RegistroConductor.jsp">Registro Conductores</a></li>
                                                     <li><a href="RegistroCamion.jsp">Registro Vehiculos</a></li>
-                                                    <li><a href="Asignamiento.html">Asignamiento</a></li>
+                                                    <li><a href="VerAsignamiento.jsp">Asignamiento</a></li>
                                                     <li><a href="VerCamion.jsp">Lista camiones</a></li>
                                                     <li><a href="VerConductor.jsp">Lista conductores</a></li>
                                                 </ul>
